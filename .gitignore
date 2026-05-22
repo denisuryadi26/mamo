@@ -1,0 +1,26 @@
+# Sensitive / Private
+*.key
+*.pem
+*.env
+secrets/
+.ssh/
+credentials/
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
+*.swp
+*~
+
+# IDE
+.vscode/
+.idea/
+
+# Large binaries (optional, uncomment if needed)
+# *.mp4
+# *.mp3
+# *.zip
+
+# OpenClaw internals (optional, keep local only)
+.openclaw/
